@@ -1,0 +1,8 @@
+g:deckset_app	deckset.txt	/*g:deckset_app*
+deckset	deckset.txt	/*deckset*
+deckset-:DecksetOpen	deckset.txt	/*deckset-:DecksetOpen*
+deckset-:DecksetQuit	deckset.txt	/*deckset-:DecksetQuit*
+deckset-about	deckset.txt	/*deckset-about*
+deckset-commands	deckset.txt	/*deckset-commands*
+deckset-configuration	deckset.txt	/*deckset-configuration*
+deckset.vim	deckset.txt	/*deckset.vim*

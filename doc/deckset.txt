@@ -1,0 +1,44 @@
+deckset.vim*  Open the current Markdown buffer in Deckset.app.
+
+Author: Dean Ashton <dean.ashton@gmail.com>
+License: Same terms as Vim itself (see |license|)
+
+==============================================================================
+INTRODUCTION                                    *deckset*
+
+deckset.vim adds `:DecksetOpen` and `:DecksetQuit` commands to Markdown buffers.
+
+deckset.vim is entirely based on [marked.vim](https://github.com/itspriddle/vim-marked)
+so all credit goes to itspriddle.
+
+Note: Since Deckset is available only for OS X, this plugin will not be loaded
+unless you are on OS X.
+
+==============================================================================
+CONFIGURATION                                   *deckset-configuration*
+
+                                                *g:deckset_app*
+The Deckset application name. By default this is "Deckset". 
+
+==============================================================================
+COMMANDS                                        *deckset-commands*
+
+                                                *deckset-:DecksetOpen*
+:DecksetOpen[!]          Open the current Markdown buffer in Deckset. Call with
+                        a bang to prevent Deckset from stealing focus from Vim.
+                        Documents opened in Deckset are tracked and closed
+                        automatically when you quit Vim.
+
+                                                *deckset-:DecksetQuit*
+:DecksetQuit             Close the current Markdown buffer in Deckset. Quits
+                        Deckset if there are no other documents open.
+
+==============================================================================
+ABOUT                                           *deckset-about*
+
+Grab the latest version or report a bug on Github:
+
+https://github.com/deanashton/vim-deckset
+
+==============================================================================
+ vim:tw=78:et:ft=help:norl:
